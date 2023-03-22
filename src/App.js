@@ -1,16 +1,10 @@
-import logo from "./logo.svg";
 import "./App.css";
-import { useEffect, useState } from "react";
-import Countries from "./components/countries/Countries";
-import Parson from "./components/parson/parson";
-import Header from "./components/header/Header";
+import Countries from "./component/Countries/Countries";
 
 function App() {
   return (
     <div className="App">
-      <Header></Header>
       <Countries></Countries>
-      <Parson></Parson>
     </div>
   );
 }
